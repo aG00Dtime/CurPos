@@ -1,2 +1,2 @@
 # CurPos
-Simple script to add x &amp; y coordinates of cursor under it
+Simple script to add x &amp; y coordinates of the cursor under it
