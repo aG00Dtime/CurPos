@@ -43,14 +43,14 @@ class CurPos(Tk):
         screen_h = self.winfo_screenheight()
 
         # relocate the xy box if mouse is at the end of the screen or bottom
-        if x > (screen_w - 50):
-            x = x - 100
+        if x > (screen_w - 100):
+            x = x - 150
 
-        if y > (screen_h - 50):
-            y = y - 100
+        if y > (screen_h - 100):
+            y = y - 150
 
         # set self pos to follow cursor
-        self.geometry(f"80x50+{x + 20}+{y + 30}")
+        self.geometry(f"100x60+{x + 20}+{y + 30}")
 
         # change label values
         self.pos_x.set(f"X : {x}")
