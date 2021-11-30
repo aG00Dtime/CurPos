@@ -14,14 +14,14 @@ class CurPos(Tk):
         self.pos_y = StringVar()
 
         # background color
-        self.background = "black"
-        self.configure(bg=self.background)
+        background = "black"
+        self.configure(bg=background)
         # label
-        self.label_x = Label(self, textvariable=self.pos_x, font='Arial 12 bold', foreground='cyan', bg=self.background)
+        self.label_x = Label(self, textvariable=self.pos_x, font='Arial 12 bold', foreground='cyan', bg=background)
         self.label_x.pack()
 
         self.label_y = Label(self, textvariable=self.pos_y, font='Arial 12 bold', foreground='yellow',
-                             bg=self.background)
+                             bg=background)
         self.label_y.pack()
 
         # hide title bar
